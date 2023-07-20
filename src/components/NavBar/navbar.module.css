@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    box-shadow: 40px 3px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff5ff;
+}
+
+.navbar>div {
+    margin: 0px 0px;
+    flex-shrink: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.button-Save {
+    background: transparent;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.top-all{
+    display: d-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    flex-shrink: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    padding-bottom: 0px;
+    position: relative;
+}
+.left{
+    display: d-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    display: d-flex;
+   margin-left: 100px;
+
+}
+
+.preview{
+    margin-left: 100px;
+}
+
